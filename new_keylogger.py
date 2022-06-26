@@ -66,11 +66,6 @@ def teclado_():
 
 def enviar_email(archivo):
 
-    #llave=(open('pass.key','rb').read())
-    #encriptacion=(open('pass.enc','rb').read())
-    #clave=Fernet(llave)
-    #passw = clave.decrypt((encriptacion)).decode()
-
     passw = 'AQUI TU CONTRASEÑA DE EMAIL'
 
     msg=MIMEMultipart()
